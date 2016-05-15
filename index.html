@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Learn4MKhan nuevo</title>
+
+  <!-- CSS  -->
+  <link rel="stylesheet" type="text/css" href="https://cmnet.cf/red/code/efecto/intro-lento/index.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://red.cmnet.cf/code/plantilla/parallax-template/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="https://red.cmnet.cf/code/plantilla/parallax-template/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="navbar-fixed">
+    <nav class="black" role="navigation">
+    <div class="nav-wrapper container white-text">
+      <a id="logo-container" href="#" class="white-text brand-logo izquierda-a-derecha">Learn4MKhan</a>
+      <ul class="right hide-on-med-and-down">
+      <li><a class="link-nav white-text" href="#about">About</a></li>
+      <li><a class="link-nav white-text" href="#!">Developers <span class="new badge"></span></a></li>
+      <li><a class="link-nav white-text" href="#!">Foros</a></li>
+      <li><a class="link-nav white-text" href="#cursos">Cursos</a></li>
+      <li><a class="link-nav white-text" href="#planesypagos">Pagos</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+      <li><a href="#about">About</a></li>
+      <li><a href="#!">Developers</a></li>
+      <li><a href="#!">Foros</a></li>
+      <li><a href="#cursos">Cursos</a></li>
+      <li><a href="#planesypagos">Pagos</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">Learn4MKhan</i></a>
+    </div>
+    </nav>
+  </div>
+
+  <div id="index-banner" class="parallax-container">
+  <div class="section no-pad-bot">
+    <div class="container">
+    <br><br>
+    <h1 class="header center teal-text text-lighten-2 arriba-a-abajo">Bienvenido</h1>
+    <div class="row center">
+      <h5 class="header col s12 light">Registrese para comenzar los cursos!</h5>
+    </div>
+    <div class="row center">
+    <br>
+      <a href="#!" id="download-button" class="btn-inicio waves-effect waves-light btn"><i class="material-icons left">info_outline</i>Como funciona</a>
+      <a href="#!" id="download-button" class="btn-inicio waves-effect waves-light btn"><i class="material-icons left">perm_identity</i>Iniciar Sesión</a>
+    </div>
+    <br><br>
+
+    </div>
+  </div>
+  <div class="parallax"><img src="img/fondo.jpg" alt="Fondo principal"></div>
+  </div>
+
+
+  <div class="container">
+  <div class="section">
+
+    <!--   Icon Section   -->
+    <span id="registrarse"></span><br>
+    <div class="row">
+    <h5>Registrese para nuestros cursos online</h5>
+    <br>
+    <form method="get" action="" class="col s12">
+      <div class="row">
+      <div class="input-field col s6">
+        <i class="material-icons prefix">people_outline</i>
+        <input id="first_name" type="text" class="validate">
+        <label for="first_name">Nombre</label>
+      </div>
+      <div class="input-field col s6">
+        <input id="last_name" type="text" class="validate">
+        <label for="last_name">Apellido</label>
+      </div>
+      </div>
+      <div class="row">
+      <div class="input-field col s6">
+        <i class="material-icons prefix">contact_phone</i>
+        <input id="last_name" type="text" class="validate">
+        <label for="last_name">Telefono</label>
+      </div>
+      </div>
+      <div class="row">
+      <div class="input-field col s12">
+        <i class="material-icons prefix">mail_outline</i>
+        <input id="email" type="email" class="validate">
+        <label for="email" data-error="No es un correo" data-success="Correo correcto">Email</label>
+      </div>
+      </div>
+      <div class="row">
+      <div class="input-field col s12">
+        <i class="material-icons prefix">vpn_key</i>
+        <input id="password" type="password" class="validate">
+        <label for="password">Password</label>
+      </div>
+      </div>
+      <br>
+        <p>
+        <input type="checkbox" id="test6" checked="checked" />
+        <label for="test6">Usted esta de acuerdo con los <a href="#!"><b>Terminos y condiciones de uso</b></a></label>
+        <div class="switch">
+          <label>
+            Off
+            <input checked="checked" type="checkbox">
+            <span class="lever"></span>
+            On
+          </label>
+          <span class="form-noticias-encu">
+            Recibir noticias y encuestas en su correo
+          </span>
+          </div>
+        </p>
+        <button class="btn waves-effect waves-light" type="submit" onclick="Materialize.toast('Espere mientras enviamos sus datos!', 4000, 'rounded')">Registrarse
+        <i class="material-icons right">send</i>
+       </button>
+    </form>
+
+    </div>
+
+  </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+  <div class="section no-pad-bot">
+    <div class="container">
+
+        <span id="cursos"></span>
+      <div class="section esconder-movil">
+
+        <!--   Icon Section   -->
+        <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block izquierda-a-derecha">
+          <h2 class="center brown-text"><img class="img-code" src="img/html5.png"></h2>
+          <h5 class="center">HTML/CSS</h5>
+
+          <p class="light">Aprende a crear sitios web mediante la estructuración y el estilo de sus páginas.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block abajo-a-arriba">
+          <h2 class="center brown-text"><img class="img-code" src="img/JavaScript.png"></h2>
+          <h5 class="center">JavaScript</h5>
+
+          <p class="light">Aprende JavaScript, el lenguaje de programación de la web</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block derecha-a-izquierda">
+          <h2 class="center brown-text"><img class="img-code" src="img/jquery.png"></h2>
+          <h5 class="center">jQuery</h5>
+
+          <p class="light">jQuery es una manera de crear sitios web interactivos usando JavaScript.</p>
+          </div>
+        </div>
+        </div>
+      </div>
+       
+      <div class="divider"></div>
+
+      <div class="section esconder-movil">
+
+        <!--   Icon Section 2  -->
+        <div class="row">
+          <div class="col s12 m4">
+          <div class="icon-block izquierda-a-derecha">
+            <h2 class="center brown-text"><img class="img-code" src="img/PHP.png"></h2>
+            <h5 class="center">PHP</h5>
+
+            <p class="light">PHP es el lenguaje de programación del lado del servidor más conocido.</p>
+          </div>
+          </div>
+
+          <div class="col s12 m4">
+          <div class="icon-block abajo-a-arriba">
+            <h2 class="center brown-text"><img class="img-code" src="img/Python.png"></h2>
+            <h5 class="center">Python</h5>
+
+            <p class="light">Python es un lenguaje de programación de uso general, orientado a objetos e interpretado.</p>
+          </div>
+          </div>
+
+          <div class="col s12 m4">
+          <div class="icon-block derecha-a-izquierda">
+            <h2 class="center brown-text"><img class="img-code" src="img/ruby.png"></h2>
+            <h5 class="center">Ruby</h5>
+
+            <p class="light">Ruby es un lenguaje de programación muy utilizado para una infinidad de sitios web.</p>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <p>
+          <b><a href="#!">Presione aquí</a> para ver todos los cursos!</b>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="parallax"><img src="https://data.bancodedatos.cf/img/blob?cdn=4568" alt="Fondo secundario"></div>
+  </div>
+
+  <div class="container">
+  <div class="section">
+    <span id="planesypagos"></span>
+
+    <div class="row">
+    <div class="col s12 center">
+      <h4>Planes y precios</h4>
+      <p>Vea nuestros planes premiun</p>    
+    </div>
+    </div>
+
+  </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+  <div class="section no-pad-bot">
+    <div class="container">
+    
+    <ul class="background-light collapsible black-text" data-collapsible="accordion">
+    <li>
+      <div class="collapsible-header"><i class="material-icons">credit_card</i> Formas de pagos</div>
+      <div class="white-text collapsible-body"><p>Nosotros aceptamos Paypal, Tarjetas de creditos y otros tipos de pagos que estaran disponible en su perfil...</p></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">monetization_on</i>Planes</div>
+      <div class="white-text collapsible-body">
+        <h5>Planes</h5><br>
+        <p>
+          <b>Premiun:</b> Acceso a todos los cursos online con vídeos sin ninguna restricción con pagos mensuales <br>
+          <b>Gratis:</b> El acceso a los cursos es limitada con restricciones
+        </p>
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">timelapse</i>Tiempo</div>
+      <div class="white-text collapsible-body">
+       <p>
+        Si el pago es electronico su cuenta premiun se activa inmediatamente
+       </p>
+      </div>
+    </li>
+    </ul>
+
+    </div>
+  </div>
+  <div class="parallax"><img src="https://red.cmnet.cf/code/img/fondos/playa1HD.jpg" alt="3 Fondo"></div>
+  </div>
+
+  <div class="container">
+  <div class="section">
+
+    <div class="row">
+    <div class="col s12 center">
+      <h3><i class="mdi-content-send brown-text"></i></h3>
+      <h4>Desarroladores</h4>
+      
+      <div class="chip tooltipped" data-position="bottom" data-delay="50"
+      data-tooltip="Programador en Jefe">
+        <img src="img/usuario.jpg" alt="Contact Person">
+        Nombre y Apellido
+        </div>
+        <div class="chip tooltipped" data-position="bottom" data-delay="50"
+      data-tooltip="Creador de estilos">
+        <img src="img/usuario.jpg" alt="Contact Person">
+        Nombre y Apellido
+        </div>
+        <div class="chip tooltipped" data-position="bottom" data-delay="50"
+      data-tooltip="Programador del software">
+        <img src="img/usuario.jpg" alt="Contact Person">
+        Nombre y Apellido
+        </div>
+    
+    </div>
+    </div>
+
+  </div>
+  </div>
+
+  <span id="about"></span>
+  <footer class="page-footer teal">
+  <div class="container">
+    <div class="row">
+    <div class="col l6 s12">
+      <h5 class="white-text">Company Bio</h5>
+      <p class="grey-text text-lighten-4">Estamos para enseñar a las personas que no saben como crear su página web. Aquí les enseñaremos a hacer una página web completa</p>
+
+
+    </div>
+    <div class="col l3 s12">
+      <h5 class="white-text">Contacto</h5>
+      <ul>
+      <li><a class="white-text" href="mailto:correo@dominio.com">Correo</a></li>
+      <li><a class="white-text" href="tel:55-445-6234-13 ">Telefono</a></li>
+      <li><a class="white-text" href="#!">Soporte tecnico</a></li>
+      </ul>
+    </div>
+    <div class="col l3 s12">
+      <h5 class="white-text">Espacios</h5>
+      <ul>
+      <li><a class="white-text" href="#!">Login</a></li>
+      <li><a class="white-text" href="#registrarse">Registrarte</a></li>
+      <li><a class="white-text" href="#planesypagos">Opciones de pago</a></li>
+      <li><a class="white-text" href="#cursos">cursos</a></li>
+      </ul>
+    </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+    Developers <a class="orange-text text-lighten-3" href="https://developers.cmnetwork.cf">Cesar Miguel Network, Inc.</a>
+    <img src="https://data.bancodedatos.cf/img/blob?cdn=0" width="27" height="20">
+    </div>
+  </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://red.cmnet.cf/code/plantilla/parallax-template/js/materialize.js"></script>
+  <script src="https://red.cmnet.cf/code/plantilla/parallax-template/js/init.js"></script>
+
+  </body>
+</html>
